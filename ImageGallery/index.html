@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Image Gallery</h1>
+
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="city">City</button>
+            <button class="filter-btn" data-filter="people">People</button>
+            <button class="filter-btn" data-filter="animals">Animals</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery" id="gallery">
+            <!-- Images will be loaded dynamically from API -->
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+                <p>Loading images...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <img class="lightbox-image" id="lightboxImage" src="" alt="">
+            <div class="lightbox-info">
+                <h3 class="lightbox-title" id="lightboxTitle"></h3>
+                <p class="lightbox-category" id="lightboxCategory"></p>
+            </div>
+        </div>
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-prev" id="lightboxPrev">&#10094;</button>
+        <button class="lightbox-next" id="lightboxNext">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
