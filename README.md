@@ -22,7 +22,7 @@ A simple, responsive calculator that supports basic arithmetic operations.
 
 ## 🖼️ Image Gallery
 
-A dynamic and filterable image gallery using images from [loremflickr](https://loremflickr.com). Includes a full-featured lightbox viewer.
+A dynamic and filterable image gallery using images from [LoremPicsum](https://picsum.photos/). Includes a full-featured lightbox viewer.
 
 ### 🔧 Features
 - Filter by categories: Nature, City, People, Animals
@@ -36,6 +36,6 @@ A dynamic and filterable image gallery using images from [loremflickr](https://l
 - HTML5  
 - CSS3  
 - JavaScript (Vanilla)  
-- [LoremFlickr](https://loremflickr.com) – for dynamic image loading
+- [LoremPicsum](https://picsum.photos/) – for dynamic image loading
 
 ---
